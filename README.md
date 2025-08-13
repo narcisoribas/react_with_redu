@@ -32,5 +32,5 @@ Para explorar o projeto, siga os passos abaixo. É essencial ter o [Node.js](htt
 
 **1. Clone o Repositório**
 ```bash
-git clone https://github.com/narcisoribas/react_with_redu.git
+git clone https://github.com/narcisoribas/react_with_redux.git
 
