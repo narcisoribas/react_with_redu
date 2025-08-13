@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "Smartphone Super X",
+      "description": "Um smartphone de última geração com câmera de 108MP e tela AMOLED.",
+      "price": 3999.9,
+      "category": "Eletrônicos",
+      "idcategory": "cat_001",
+      "stockQuantity": 50
+    },
+    {
+      "id": "prod_002",
+      "name": "Notebook Ultra Power",
+      "description": "Perfeito para trabalho e jogos, com processador i9 e 32GB de RAM.",
+      "price": 8500,
+      "category": "Informática",
+      "idcategory": "cat_002",
+      "stockQuantity": 25
+    },
+    {
+      "id": "prod_003",
+      "name": "Fone de Ouvido Sem Fio",
+      "description": "Cancelamento de ruído ativo e 20 horas de bateria.",
+      "price": 799.5,
+      "category": "Acessórios",
+      "idcategory": "cat_003",
+      "stockQuantity": 120
+    },
+    {
+      "id": "40db",
+      "name": "dfdsfd",
+      "description": "sdfsdfsd",
+      "price": 1234567,
+      "category": "cat_002",
+      "idCategory": "cat_002",
+      "stockQuantity": 5
+    },
+    {
+      "id": "683b",
+      "name": "asdas",
+      "description": "asdasd",
+      "price": 12313,
+      "category": "cat_002",
+      "idCategory": "cat_002",
+      "stockQuantity": 123123
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_001",
+      "name": "Eletrônicos",
+      "description": "Dispositivos eletrônicos como smartphones, tablets e acessórios.",
+      "image": "https://example.com/images/electronics.jpg",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "updatedAt": "2023-10-01T12:00:00Z"
+    },
+    {
+      "id": "cat_002",
+      "name": "Informática",
+      "description": "Computadores, notebooks, periféricos e acessórios de informática.",
+      "image": "https://example.com/images/computers.jpg",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "updatedAt": "2023-10-01T12:00:00Z"
+    },
+    {
+      "id": "cat_003",
+      "name": "Acessórios",
+      "description": "Acessórios diversos como fones de ouvido, cabos e carreg",
+      "image": "https://example.com/images/accessories.jpg",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "updatedAt": "2023-10-01T12:00:00Z"
+    }
+  ]
+}

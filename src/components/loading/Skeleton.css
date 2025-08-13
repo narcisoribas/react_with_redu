@@ -1,0 +1,40 @@
+/* Skeleton.css */
+
+/* A base para qualquer elemento de esqueleto */
+.skeleton {
+  background-color: #e0e0e0; /* Cor cinza base do esqueleto */
+  border-radius: 4px; /* Bordas levemente arredondadas */
+
+  /* A mágica da animação começa aqui */
+  position: relative;
+  overflow: hidden; /* Garante que o brilho não saia dos limites do elemento */
+}
+
+/* O pseudo-elemento que será o nosso "brilho" animado */
+.skeleton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* O brilho é um gradiente linear que vai da esquerda para a direita */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5), /* O brilho em si (um branco semitransparente) */
+    transparent
+  );
+
+  /* A animação em si */
+  transform: translateX(-100%); /* Começa fora da tela, à esquerda */
+  animation: shimmer 1.5s infinite; /* Nome da animação, duração e repetição */
+}
+
+/* A definição da animação @keyframes */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%); /* Termina fora da tela, à direita */
+  }
+}
